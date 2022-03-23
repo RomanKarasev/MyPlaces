@@ -17,6 +17,8 @@
 		7413AEEE27EB2D1800821A4D /* MyPlacesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413AEED27EB2D1800821A4D /* MyPlacesUITestsLaunchTests.swift */; };
 		7413AEFB27EB2E6D00821A4D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413AEFA27EB2E6D00821A4D /* MainViewController.swift */; };
 		7413AEFD27EB3FEB00821A4D /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413AEFC27EB3FEB00821A4D /* CustomTableViewCell.swift */; };
+		7413AEFF27EB45E800821A4D /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413AEFE27EB45E800821A4D /* PlaceModel.swift */; };
+		7413AF0127EB742F00821A4D /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413AF0027EB742F00821A4D /* NewPlaceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		7413AEED27EB2D1800821A4D /* MyPlacesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlacesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7413AEFA27EB2E6D00821A4D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = SOURCE_ROOT; };
 		7413AEFC27EB3FEB00821A4D /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		7413AEFE27EB45E800821A4D /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		7413AF0027EB742F00821A4D /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				7413AECA27EB2D1100821A4D /* AppDelegate.swift */,
+				7413AF0027EB742F00821A4D /* NewPlaceViewController.swift */,
+				7413AEFE27EB45E800821A4D /* PlaceModel.swift */,
 				7413AEFC27EB3FEB00821A4D /* CustomTableViewCell.swift */,
 				7413AEFA27EB2E6D00821A4D /* MainViewController.swift */,
 				7413AECC27EB2D1100821A4D /* SceneDelegate.swift */,
@@ -262,7 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7413AEFB27EB2E6D00821A4D /* MainViewController.swift in Sources */,
+				7413AF0127EB742F00821A4D /* NewPlaceViewController.swift in Sources */,
 				7413AECB27EB2D1100821A4D /* AppDelegate.swift in Sources */,
+				7413AEFF27EB45E800821A4D /* PlaceModel.swift in Sources */,
 				7413AEFD27EB3FEB00821A4D /* CustomTableViewCell.swift in Sources */,
 				7413AECD27EB2D1100821A4D /* SceneDelegate.swift in Sources */,
 			);
