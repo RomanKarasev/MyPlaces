@@ -79,7 +79,7 @@
                     <navigationItem key="navigationItem" title="My Places" id="Bon-XU-pN1">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="9y6-Dh-XAc">
                             <connections>
-                                <segue destination="LIM-R4-BUD" kind="presentation" modalTransitionStyle="coverVertical" id="56i-XH-Mjf"/>
+                                <segue destination="LIM-R4-BUD" kind="presentation" identifier="" modalTransitionStyle="coverVertical" id="56i-XH-Mjf"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -247,7 +247,7 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="iO1-mS-43e">
                             <connections>
-                                <segue destination="Kly-75-Zmg" kind="unwind" unwindAction="unwindSegue:" id="M10-go-Zkc"/>
+                                <segue destination="kuV-cq-MU3" kind="unwind" unwindAction="unwindSegue:" id="RRr-Ky-DWR"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -260,7 +260,7 @@
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zwJ-jv-qKh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="Kly-75-Zmg" userLabel="Exit" sceneMemberID="exit"/>
+                <exit id="kuV-cq-MU3" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2179.7101449275365" y="85.714285714285708"/>
         </scene>
