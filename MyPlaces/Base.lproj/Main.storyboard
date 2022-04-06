@@ -159,7 +159,7 @@
                             <outlet property="delegate" destination="c0O-WI-7my" id="rVF-5x-wpH"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="New Place" id="R6O-vp-4S7">
+                    <navigationItem key="navigationItem" title="New Place" largeTitleDisplayMode="always" id="R6O-vp-4S7">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="W4F-xJ-keX">
                             <connections>
                                 <action selector="cancelAction:" destination="c0O-WI-7my" id="SXy-tI-7sc"/>
@@ -188,8 +188,8 @@
         <scene sceneID="5BR-fR-QXL">
             <objects>
                 <navigationController id="rzJ-1L-rd3" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aIx-za-xm0">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="aIx-za-xm0">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="HoeflerText-BlackItalic" family="Hoefler Text" pointSize="24"/>
@@ -299,7 +299,7 @@
                             <constraint firstItem="Kn8-fL-t86" firstAttribute="top" secondItem="sbG-VA-KgB" secondAttribute="top" id="tLi-eo-Zr4"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="My Places" id="V0c-gB-EMc">
+                    <navigationItem key="navigationItem" title="My Places" largeTitleDisplayMode="never" id="V0c-gB-EMc">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="AZ" id="Bwu-v4-TzO">
                             <connections>
                                 <action selector="reversedSorting:" destination="hgO-Ep-FT0" id="vx7-EW-8Gx"/>
