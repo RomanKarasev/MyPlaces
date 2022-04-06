@@ -151,6 +151,23 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="140" id="9hW-Cs-wZh">
+                                        <rect key="frame" x="0.0" y="519.5" width="414" height="140"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9hW-Cs-wZh" id="E8v-6H-5ZW">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="252" placeholderIntrinsicHeight="44" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="uj8-G0-J7O" customClass="RatingControl" customModule="MyPlaces" customModuleProvider="target">
+                                                    <rect key="frame" x="81" y="48" width="252" height="44"/>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="uj8-G0-J7O" firstAttribute="centerY" secondItem="E8v-6H-5ZW" secondAttribute="centerY" id="7fp-8q-ckg"/>
+                                                <constraint firstItem="uj8-G0-J7O" firstAttribute="centerX" secondItem="E8v-6H-5ZW" secondAttribute="centerX" id="dsV-Y2-Jel"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -343,6 +360,11 @@
             <point key="canvasLocation" x="1283" y="-603"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="uj8-G0-J7O">
+            <size key="intrinsicContentSize" width="252" height="44"/>
+        </designable>
+    </designables>
     <inferredMetricsTieBreakers>
         <segue reference="OUI-Fr-IR4"/>
     </inferredMetricsTieBreakers>

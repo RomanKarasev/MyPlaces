@@ -77,9 +77,15 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     // MARK: Table view delegate
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         
         let place = places[indexPath.row]
+        
+// Удаление по свайпу
         let deleteAction = UIContextualAction(style: .destructive, title: "Delete") {  (contextualAction, view, boolValue) in
 
             StorageManager.deleteObject(place)
@@ -89,22 +95,10 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
         return swipeActions
     }
-    
-//    override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
-//        let place = places[indexPath.row]
-//        let deleteAction = UITableViewRowAction(style: .default, title: "Delete") { (_, _) in
-//
-//            StorageManager.deleteObject(place)
-//            tableView.deleteRows(at: [IndexPath], with: .automatic)
-//        }
-//        return [deleteAction]
-//    }
-    
-
 
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+// Возврат по сегвею
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
             guard let indexPath = tableView.indexPathForSelectedRow else { return }
